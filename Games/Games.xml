@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Games</name>
+    </assembly>
+    <members>
+        <member name="M:Games.Controllers.GamesController.Select(System.Int32,System.Int32)">
+            <summary>
+            Buscar todos os jogos de forma paginada
+            </summary>
+            <param name="page">Indica qual pagina esta sendo consultada. Minimo 1 </param> 
+            <param name="quantity">Indica a quantidade de registros por pagina. Min1 e Max 50 </param>
+            <responde>code="200" OK</responde>
+            <responde>code="400" Not Found</responde>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
